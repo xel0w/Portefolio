@@ -194,7 +194,7 @@ ul a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(/asset/img/pngeggmodif.png);
+    background-image: url(../img/pngeggmodif.png);
     background-repeat: no-repeat;
     background-size: 110%;
     z-index: -10;
@@ -264,6 +264,7 @@ main{
 .social a{
     cursor: pointer;
     transition: transform .3s;
+    
 }
 .social a:hover{
     transform: scale(1.3);
