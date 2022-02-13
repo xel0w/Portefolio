@@ -52,6 +52,7 @@ body {
     top: 50%;
     transform: rotateY(-50%);
     transition: background-color 0.1s ease-in-out;
+    
 }
 
 .burger span::before, .burger span::after {
@@ -260,6 +261,8 @@ main{
 }
 .social img{
     width: 50px;
+    border-radius: 50px;
+    box-shadow: rgba(103, 0 ,255, 0.7) 0px 6px 41px 0px ;
 }
 .social a{
     cursor: pointer;
