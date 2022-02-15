@@ -165,7 +165,7 @@ ul a {
     width: 600px;
     border-radius: 600px;
     /* background-color: rgb(230, 7, 230); */
-    background-image: url(/site/asset/img/Lune_ico.png);
+    background-image: url(../img/Lune_ico.png);
     background-size: 100%;
     z-index: 0;
     position: absolute;
