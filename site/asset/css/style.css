@@ -14,11 +14,13 @@ html, body {
 body {
     background: linear-gradient(to right bottom, #051937, #131736, #1c1634, #241431, #2a122e);
     background-size: 100%;
+    background-repeat: no-repeat;
     animation: gradient 15s ease infinite;
     font-family: poppin;
     display: flex;
     justify-content: center;
     user-select: none;
+    height: 100vh;
 
 }
   
@@ -295,4 +297,42 @@ main{
     left:0;
     z-index: -1;
     margin-left: 8%;
+}
+
+@media screen and (max-width: 773px){ 
+
+    #xelow{
+        display: none;
+    }
+    .social{
+       flex-direction: row;
+       justify-content: space-around;
+       position: absolute;
+       left: 10%;
+       top: 90%;
+    }
+    .rond{
+        width: 50%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 12%;
+    }
+    .ombre{
+        height: fit-content;
+
+    }
+    #intro{
+        position:absolute;
+        top:48%;
+    }
+    .description p{
+        position: absolute;
+        top:65%;
+        left:10%
+    }
+    .burger{
+        left: 80%;
+        top: 5%;
+    }
+
 }
