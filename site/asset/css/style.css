@@ -331,8 +331,9 @@ main{
         left:10%
     }
     .burger{
-        left: 80%;
-        top: 5%;
+        position: fixed;
+        left: 35%;
+        top: 2%;
     }
     ul{
         font-size: 70px;
@@ -342,6 +343,11 @@ main{
     }
     #rond{
         width: 80%;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
 
 }
