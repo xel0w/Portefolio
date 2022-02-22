@@ -334,5 +334,14 @@ main{
         left: 80%;
         top: 5%;
     }
+    ul{
+        font-size: 70px;
+    }
+    #paramenu{
+        top:20%;
+    }
+    #rond{
+        width: 80%;
+    }
 
 }
