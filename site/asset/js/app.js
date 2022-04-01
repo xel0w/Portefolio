@@ -32,3 +32,11 @@ function parallax2(e){
 
         rond2.style.transform =  `translateX(${x}px) translateY(${y}px)`    
 };
+
+/////Loader//////
+
+function afficher(){
+        document.querySelector(".loader-content").classList.add("cache");
+    }
+    
+    setTimeout(afficher, 3500);
